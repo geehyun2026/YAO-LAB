@@ -52,6 +52,7 @@ const content = {
       title: "Join the lab",
       intro:
         "We welcome students and researchers interested in immune-metabolic adaptation, burnout dynamics, post-exam recovery biology, chronic sleep deprivation, and emotionally unstable collaborative environments.",
+      introExtra: "Only one letter of recommendation required.",
       openPositions: "Open positions",
       openPositionsText:
         "The Yao Lab is currently recruiting highly resilient master’s students, PhD students, postdoctoral fellows, research assistants, and emotionally stable collaborators. Prior experience in deadline survival, caffeine-dependent productivity, group-chat crisis management, or emergency slide production is strongly preferred."
@@ -108,6 +109,7 @@ const content = {
       title: "加入我们",
       intro:
         "我们欢迎对免疫代谢适应、burnout 动力学、考后恢复生物学、慢性缺觉以及情绪不稳定型合作环境感兴趣的学生与研究人员加入。",
+      introExtra: "只需要一封推荐信。",
       openPositions: "开放职位",
       openPositionsText:
         "姚实验室现招收高韧性硕士生、博士生、博士后、科研助理以及情绪稳定的合作研究人员。有截止日期生存经验、咖啡因依赖型生产力、群聊危机处理能力或紧急赶 PPT 能力者优先。"
@@ -225,12 +227,12 @@ const members = [
     year: { en: "", zh: "" },
     image: "/member-1.png",
     interests: {
-      en: "Collective burnout amplification · collaborative stress systems · post-meeting recovery mechanisms",
-      zh: "集体 burnout 放大效应 · 协作压力系统 · 组会后恢复机制"
+      en: ["Collective burnout amplification", "collaborative stress systems", "post-meeting recovery mechanisms"],
+      zh: ["集体 burnout 放大效应", "协作压力系统", "组会后恢复机制"]
     },
     bio: {
-      en: "Collective burnout amplification · collaborative stress systems · post-meeting recovery mechanisms",
-      zh: "集体 burnout 放大效应 · 协作压力系统 · 组会后恢复机制"
+      en: ["Collective burnout amplification", "collaborative stress systems", "post-meeting recovery mechanisms"],
+      zh: ["集体 burnout 放大效应", "协作压力系统", "组会后恢复机制"]
     }
   },
   {
@@ -239,12 +241,12 @@ const members = [
     year: { en: "", zh: "" },
     image: "/member-2.png",
     interests: {
-      en: "Circadian nap optimization · snack surveillance systems",
-      zh: "昼夜节律睡眠优化 · 零食监测系统"
+      en: ["Circadian nap optimization", "snack surveillance systems"],
+      zh: ["昼夜节律睡眠优化", "零食监测系统"]
     },
     bio: {
-      en: "Circadian nap optimization · snack surveillance systems",
-      zh: "昼夜节律睡眠优化 · 零食监测系统"
+      en: ["Circadian nap optimization", "snack surveillance systems"],
+      zh: ["昼夜节律睡眠优化", "零食监测系统"]
     }
   },
   {
@@ -253,12 +255,12 @@ const members = [
     year: { en: "", zh: "" },
     image: "/member-3.png",
     interests: {
-      en: "Cat-assisted emotional regulation · translational meow biology",
-      zh: "猫源性情绪调控 · 喵学转化研究"
+      en: ["Cat-assisted emotional regulation", "translational meow biology"],
+      zh: ["猫源性情绪调控", "喵学转化研究"]
     },
     bio: {
-      en: "Cat-assisted emotional regulation · translational meow biology",
-      zh: "猫源性情绪调控 · 喵学转化研究"
+      en: ["Cat-assisted emotional regulation", "translational meow biology"],
+      zh: ["猫源性情绪调控", "喵学转化研究"]
     }
   },
   {
@@ -267,12 +269,12 @@ const members = [
     year: { en: "", zh: "" },
     image: "/member-4.png",
     interests: {
-      en: "Administrative crisis management · emergency deadline reconstruction · interdisciplinary chaos coordination",
-      zh: "行政危机管理 · 紧急 ddl 修复 · 跨学科混乱协调"
+      en: ["Administrative crisis management", "emergency deadline reconstruction", "interdisciplinary chaos coordination"],
+      zh: ["行政危机管理", "紧急 ddl 修复", "跨学科混乱协调"]
     },
     bio: {
-      en: "Administrative crisis management · emergency deadline reconstruction · interdisciplinary chaos coordination",
-      zh: "行政危机管理 · 紧急 ddl 修复 · 跨学科混乱协调"
+      en: ["Administrative crisis management", "emergency deadline reconstruction", "interdisciplinary chaos coordination"],
+      zh: ["行政危机管理", "紧急 ddl 修复", "跨学科混乱协调"]
     }
   },
   {
@@ -281,12 +283,12 @@ const members = [
     year: { en: "", zh: "" },
     image: "/member-5.png",
     interests: {
-      en: "Socially transmitted burnout · emotional exhaustion propagation · caffeine-mediated resilience",
-      zh: "社交传播型 burnout · 情绪耗竭传播 · 咖啡因介导韧性机制"
+      en: ["Socially transmitted burnout", "emotional exhaustion propagation", "caffeine-mediated resilience"],
+      zh: ["社交传播型 burnout", "情绪耗竭传播", "咖啡因介导韧性机制"]
     },
     bio: {
-      en: "Socially transmitted burnout · emotional exhaustion propagation · caffeine-mediated resilience",
-      zh: "社交传播型 burnout · 情绪耗竭传播 · 咖啡因介导韧性机制"
+      en: ["Socially transmitted burnout", "emotional exhaustion propagation", "caffeine-mediated resilience"],
+      zh: ["社交传播型 burnout", "情绪耗竭传播", "咖啡因介导韧性机制"]
     }
   },
   {
@@ -295,12 +297,12 @@ const members = [
     year: { en: "", zh: "" },
     image: "/member-6.png",
     interests: {
-      en: "Chronic procrastination syndrome · last-minute productivity bursts · temporal awareness loss",
-      zh: "慢性拖延综合征 · 临时性生产力爆发 · 时间感知丧失机制"
+      en: ["Chronic procrastination syndrome", "last-minute productivity bursts", "temporal awareness loss"],
+      zh: ["慢性拖延综合征", "临时性生产力爆发", "时间感知丧失机制"]
     },
     bio: {
-      en: "Chronic procrastination syndrome · last-minute productivity bursts · temporal awareness loss",
-      zh: "慢性拖延综合征 · 临时性生产力爆发 · 时间感知丧失机制"
+      en: ["Chronic procrastination syndrome", "last-minute productivity bursts", "temporal awareness loss"],
+      zh: ["慢性拖延综合征", "临时性生产力爆发", "时间感知丧失机制"]
     }
   }
 ];
@@ -471,10 +473,17 @@ export default function YaoLabHomepage() {
                               }}
                             />
                           </div>
-                          <div>
+                          <div className="flex-1">
                             <p className="font-semibold text-slate-900">{member.name[lang]}</p>
                             <p className="mt-1 text-sm text-slate-500">{member.role[lang]} · {member.year[lang]}</p>
-                            <p className="mt-2 line-clamp-2 text-sm leading-6 text-slate-600">{member.interests[lang]}</p>
+                            <div className="mt-2 space-y-1 text-sm leading-5 text-slate-600">
+                              {member.interests[lang].slice(0, 2).map((interest, idx) => (
+                                <div key={idx} className="flex items-start gap-2">
+                                  <span className="text-slate-400 flex-shrink-0">•</span>
+                                  <span>{interest}</span>
+                                </div>
+                              ))}
+                            </div>
                           </div>
                         </CardContent>
                       </Card>
@@ -568,6 +577,9 @@ export default function YaoLabHomepage() {
                   <p className="mt-4 leading-7 text-slate-300">
                     {t.opportunities.intro}
                   </p>
+                  <p className="mt-2 leading-7 text-slate-300">
+                    <strong>{t.opportunities.introExtra}</strong>
+                  </p>
                 </div>
                 <div className="rounded-3xl bg-white/10 p-6">
                   <div className="flex items-center gap-3">
@@ -652,9 +664,23 @@ export default function YaoLabHomepage() {
                 <p className="mt-2 text-slate-500">{selectedMember.role[lang]} · {selectedMember.year[lang]}</p>
                 <div className="mt-5 rounded-2xl bg-slate-50 p-4">
                   <p className="text-sm font-semibold text-slate-500">{isZh ? "研究兴趣" : "Research interests"}</p>
-                  <p className="mt-2 leading-7 text-slate-700">{selectedMember.interests[lang]}</p>
+                  <div className="mt-3 space-y-2 text-slate-700">
+                    {selectedMember.interests[lang].map((interest, idx) => (
+                      <div key={idx} className="flex items-start gap-2 text-sm leading-6">
+                        <span className="text-slate-400 flex-shrink-0 mt-0.5">•</span>
+                        <span>{interest}</span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
-                <p className="mt-5 leading-7 text-slate-600">{selectedMember.bio[lang]}</p>
+                <div className="mt-5 space-y-2">
+                  {selectedMember.bio[lang].map((item, idx) => (
+                    <div key={idx} className="flex items-start gap-2 leading-7 text-slate-600">
+                      <span className="text-slate-400 flex-shrink-0 mt-0.5">•</span>
+                      <span>{item}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </motion.div>

@@ -349,7 +349,7 @@ export default function YaoLabHomepage() {
       </header>
 
       <main>
-        <section className="mx-auto grid max-w-6xl gap-10 px-6 pt-98 pb-10 md:grid-cols-[1.1fr_0.9fr] md:items-center" style={{backgroundImage: "linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('/back1.jpg')", backgroundSize: "cover", backgroundPosition: "top"}}>
+        <section className="mx-auto grid max-w-6xl gap-10 px-6 pt-90 pb-10 md:grid-cols-[1.1fr_0.9fr] md:items-center" style={{backgroundImage: "linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('/back1.jpg')", backgroundSize: "cover", backgroundPosition: "top"}}>
           <motion.div
             key={lang}
             initial={{ opacity: 0, y: 18 }}
@@ -515,6 +515,9 @@ export default function YaoLabHomepage() {
         </button>
       ))}
     </div>
+    <div className="mt-12 text-center">
+  <p className="text-lg text-slate-500">{isZh ? "更多精彩活动，等你一起加入！" : "More exciting activities await — come join us!"}</p>
+</div>
   </div>
 
   {selectedActivity && (

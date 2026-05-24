@@ -292,7 +292,7 @@ export default function YaoLabHomepage() {
       </header>
 
       <main>
-        <section className="mx-auto grid max-w-6xl gap-10 px-6 py-20 md:grid-cols-[1.1fr_0.9fr] md:items-center">
+        <section className="mx-auto grid max-w-6xl gap-10 px-6 py-20 md:grid-cols-[1.1fr_0.9fr] md:items-center" style={{backgroundImage: "url('/back1.jpg')", backgroundSize: "cover", backgroundPosition: "center"}}>
           <motion.div
             key={lang}
             initial={{ opacity: 0, y: 18 }}

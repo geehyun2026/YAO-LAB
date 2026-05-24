@@ -292,7 +292,7 @@ export default function YaoLabHomepage() {
       </header>
 
       <main>
-        <section className="mx-auto grid max-w-6xl gap-10 px-6 pt-60 pb-10 md:grid-cols-[1.1fr_0.9fr] md:items-center" style={{backgroundImage: "linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('/back1.jpg')", backgroundSize: "cover", backgroundPosition: "center"}}>
+        <section className="mx-auto grid max-w-6xl gap-10 px-6 pt-80 pb-10 md:grid-cols-[1.1fr_0.9fr] md:items-center" style={{backgroundImage: "linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('/back1.jpg')", backgroundSize: "cover", backgroundPosition: "top"}}>
           <motion.div
             key={lang}
             initial={{ opacity: 0, y: 18 }}

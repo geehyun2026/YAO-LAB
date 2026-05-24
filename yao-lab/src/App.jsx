@@ -203,16 +203,16 @@ const publications = [
   }
 ];
 const activities = [
-  { image: "/activities/1.jpg", title: "Activity 1", desc: "Description here." },
-  { image: "/activities/2.jpg", title: "Activity 2", desc: "Description here." },
-  { image: "/activities/3.jpg", title: "Activity 3", desc: "Description here." },
-  { image: "/activities/4.jpg", title: "Activity 4", desc: "Description here." },
-  { image: "/activities/5.jpg", title: "Activity 5", desc: "Description here." },
-  { image: "/activities/6.jpg", title: "Activity 6", desc: "Description here." },
-  { image: "/activities/7.jpg", title: "Activity 7", desc: "Description here." },
-  { image: "/activities/8.jpg", title: "Activity 8", desc: "Description here." },
-  { image: "/activities/9.jpg", title: "Activity 9", desc: "Description here." },
-  { image: "/activities/10.jpg", title: "Activity 10", desc: "Description here." },
+  { image: "/activity1.jpg", title: "Activity 1", desc: "Description here." },
+  { image: "/activity2.jpg", title: "Activity 2", desc: "Description here." },
+  { image: "/activity3.jpg", title: "Activity 3", desc: "Description here." },
+  { image: "/activity4.jpg", title: "Activity 4", desc: "Description here." },
+  { image: "/activity5.JPG", title: "Activity 5", desc: "Description here." },
+  { image: "/activity6.jpg", title: "Activity 6", desc: "Description here." },
+  { image: "/activity7.jpg", title: "Activity 7", desc: "Description here." },
+  { image: "/activity8.jpg", title: "Activity 8", desc: "Description here." },
+  { image: "/activity9.jpg", title: "Activity 9", desc: "Description here." },
+  { image: "/activity10.jpg", title: "Activity 10", desc: "Description here." },
 ];
 
 // ============================================================
@@ -236,10 +236,10 @@ const members = [
     }
   },
   {
-    name: { en: "Meow", zh: "毛尖" },
+    name: { en: "MJ", zh: "毛尖" },
     role: { en: "Distinguished Research Fellow", zh: "特聘研究员" },
     year: { en: "", zh: "" },
-    image: "/member-2.png",
+    image: "/maojian.jpg",
     interests: {
       en: ["Circadian nap optimization", "snack surveillance systems"],
       zh: ["昼夜节律睡眠优化", "零食监测系统"]
@@ -253,7 +253,7 @@ const members = [
     name: { en: "Yoki", zh: "钢蛋" },
     role: { en: "Distinguished Research Fellow", zh: "特聘研究员" },
     year: { en: "", zh: "" },
-    image: "/member-3.png",
+    image: "/gangdan.jpg",
     interests: {
       en: ["Cat-assisted emotional regulation", "translational meow biology"],
       zh: ["猫源性情绪调控", "喵学转化研究"]
@@ -267,7 +267,7 @@ const members = [
     name: { en: "Freya Zheng", zh: "正西门" },
     role: { en: "Laboratory Administrator", zh: "实验室管理员" },
     year: { en: "", zh: "" },
-    image: "/member-4.png",
+    image: "/meng.jpg",
     interests: {
       en: ["Administrative crisis management", "emergency deadline reconstruction", "interdisciplinary chaos coordination"],
       zh: ["行政危机管理", "紧急 ddl 修复", "跨学科混乱协调"]
@@ -281,7 +281,7 @@ const members = [
     name: { en: "Asuka", zh: "大闸蟹" },
     role: { en: "PhD Student", zh: "博士生" },
     year: { en: "", zh: "" },
-    image: "/member-5.png",
+    image: "/dzx.JPG",
     interests: {
       en: ["Socially transmitted burnout", "emotional exhaustion propagation", "caffeine-mediated resilience"],
       zh: ["社交传播型 burnout", "情绪耗竭传播", "咖啡因介导韧性机制"]
@@ -295,7 +295,7 @@ const members = [
     name: { en: "Leah", zh: "歪歪" },
     role: { en: "PhD Student", zh: "博士生" },
     year: { en: "", zh: "" },
-    image: "/member-6.png",
+    image: "/yy.JPG",
     interests: {
       en: ["Chronic procrastination syndrome", "last-minute productivity bursts", "temporal awareness loss"],
       zh: ["慢性拖延综合征", "临时性生产力爆发", "时间感知丧失机制"]

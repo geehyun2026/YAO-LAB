@@ -58,10 +58,10 @@ const content = {
         "The Yao Lab is currently recruiting highly resilient master’s students, PhD students, postdoctoral fellows, research assistants, and emotionally stable collaborators. Prior experience in deadline survival, caffeine-dependent productivity, group-chat crisis management, or emergency slide production is strongly preferred."
     },
     contact: {
-      title: "Contact",
-      email: "Email",
-      address: "Address",
-      addressText: "Department, University, City, Country"
+      title: "in your dream",
+      email: "xiang@missyou.com",
+      address: "landexie",
+      addressText: "Department of Xiang, Yao University, Xiang City, Republic of Yao"
     },
     footer: {
       copyright: "© 2026 Yao Lab. All rights reserved.",
@@ -115,10 +115,10 @@ const content = {
         "姚实验室现招收高韧性硕士生、博士生、博士后、科研助理以及情绪稳定的合作研究人员。有截止日期生存经验、咖啡因依赖型生产力、群聊危机处理能力或紧急赶 PPT 能力者优先。"
     },
     contact: {
-      title: "联系方式",
-      email: "邮箱",
-      address: "地址",
-      addressText: "院系，大学，城市，国家"
+      title: "梦里见",
+      email: "xiang@xiangni.com",
+      address: "中国姚大学，想学院宿舍楼",
+      addressText: "想学院，中国姚大学，想市，姚国"
     },
     footer: {
       copyright: "© 2026 姚想实验室。保留所有权利。",
@@ -209,7 +209,7 @@ const activities = [
   { image: "/activity4.jpg", title: "深夜饮酒活动", desc: "注意姚导不定期养鱼 和姚导喝酒要盯住酒杯" },
   { image: "/activity5.JPG", title: "实验室常驻活动：分手厨房", desc: "三星是我们的底线 全部四星是我们的追求 厨房高手快来加入YAO LAB" },
   { image: "/activity6.jpg", title: "实验室常驻活动2：🌟", desc: "全场消费meng买单 心动吗 快来加入YAO LAB（姚导因不会钓鱼遗憾失去买单资格）" },
-  { image: "/activity7.jpg", title: "与姚导共舞活动", desc: "Description here." },
+  { image: "/activity7.jpg", title: "与姚导共舞活动", desc: "花舞节来和姚导一起跳舞吧～🎉🎉" },
   { image: "/activity8.jpg", title: "海外旅行2", desc: "Description here." },
   { image: "/activity9.jpg", title: "和导师约会", desc: "我在东京很想姚老师" },
   { image: "/activity10.jpg", title: "和导师牵手", desc: "对的我就是在夹带私货" },

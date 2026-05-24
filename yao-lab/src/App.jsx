@@ -233,10 +233,6 @@ const members = [
     role: { en: "Co-Principal Investigator", zh: "合作课题组负责人" },
     year: { en: "", zh: "" },
     image: "/xiong.jpg",
-    interests: {
-      en: ["Collective burnout amplification", "collaborative stress systems", "post-meeting recovery mechanisms"],
-      zh: ["集体 burnout 放大效应", "协作压力系统", "组会后恢复机制"]
-    },
     bio: {
       en: ["Collective burnout amplification", "collaborative stress systems", "post-meeting recovery mechanisms"],
       zh: ["集体 burnout 放大效应", "协作压力系统", "组会后恢复机制"]
@@ -248,8 +244,7 @@ const members = [
     year: { en: "", zh: "" },
     image: "/maojian.jpg",
     interests: {
-      en: ["Circadian nap optimization", "snack surveillance systems"],
-      zh: ["昼夜节律睡眠优化", "零食监测系统"]
+      zh: ["出门遛弯", "从萌嘴里抢西瓜吃"]
     },
     bio: {
       en: ["Circadian nap optimization", "snack surveillance systems"],
@@ -262,8 +257,7 @@ const members = [
     year: { en: "", zh: "" },
     image: "/gangdan.PNG",
     interests: {
-      en: ["Cat-assisted emotional regulation", "translational meow biology"],
-      zh: ["猫源性情绪调控", "喵学转化研究"]
+      zh: ["可爱", "可爱", "可爱"]
     },
     bio: {
       en: ["Cat-assisted emotional regulation", "translational meow biology"],
@@ -275,10 +269,6 @@ const members = [
     role: { en: "Laboratory Administrator", zh: "实验室管理员" },
     year: { en: "", zh: "" },
     image: "/meng.jpg",
-    interests: {
-      en: ["Administrative crisis management", "emergency deadline reconstruction", "interdisciplinary chaos coordination"],
-      zh: ["行政危机管理", "紧急 ddl 修复", "跨学科混乱协调"]
-    },
     bio: {
       en: ["Administrative crisis management", "emergency deadline reconstruction", "interdisciplinary chaos coordination"],
       zh: ["行政危机管理", "紧急 ddl 修复", "跨学科混乱协调"]
@@ -289,10 +279,6 @@ const members = [
     role: { en: "PhD Student", zh: "博士生" },
     year: { en: "", zh: "" },
     image: "/dzx.JPG",
-    interests: {
-      en: ["Socially transmitted burnout", "emotional exhaustion propagation", "caffeine-mediated resilience"],
-      zh: ["社交传播型 burnout", "情绪耗竭传播", "咖啡因介导韧性机制"]
-    },
     bio: {
       en: ["Socially transmitted burnout", "emotional exhaustion propagation", "caffeine-mediated resilience"],
       zh: ["社交传播型 burnout", "情绪耗竭传播", "咖啡因介导韧性机制"]
@@ -303,10 +289,6 @@ const members = [
     role: { en: "PhD Student", zh: "博士生" },
     year: { en: "", zh: "" },
     image: "/yy.JPG",
-    interests: {
-      en: ["Chronic procrastination syndrome", "last-minute productivity bursts", "temporal awareness loss"],
-      zh: ["慢性拖延综合征", "临时性生产力爆发", "时间感知丧失机制"]
-    },
     bio: {
       en: ["Chronic procrastination syndrome", "last-minute productivity bursts", "temporal awareness loss"],
       zh: ["慢性拖延综合征", "临时性生产力爆发", "时间感知丧失机制"]

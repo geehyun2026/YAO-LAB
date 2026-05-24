@@ -253,7 +253,7 @@ const members = [
     name: { en: "Yoki", zh: "钢蛋" },
     role: { en: "Distinguished Research Fellow", zh: "特聘研究员" },
     year: { en: "", zh: "" },
-    image: "/gangdan.jpg",
+    image: "/gangdan.PNG",
     interests: {
       en: ["Cat-assisted emotional regulation", "translational meow biology"],
       zh: ["猫源性情绪调控", "喵学转化研究"]

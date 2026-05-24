@@ -200,6 +200,18 @@ const publications = [
     }
   }
 ];
+const activities = [
+  { image: "/activities/1.jpg", title: "Activity 1", desc: "Description here." },
+  { image: "/activities/2.jpg", title: "Activity 2", desc: "Description here." },
+  { image: "/activities/3.jpg", title: "Activity 3", desc: "Description here." },
+  { image: "/activities/4.jpg", title: "Activity 4", desc: "Description here." },
+  { image: "/activities/5.jpg", title: "Activity 5", desc: "Description here." },
+  { image: "/activities/6.jpg", title: "Activity 6", desc: "Description here." },
+  { image: "/activities/7.jpg", title: "Activity 7", desc: "Description here." },
+  { image: "/activities/8.jpg", title: "Activity 8", desc: "Description here." },
+  { image: "/activities/9.jpg", title: "Activity 9", desc: "Description here." },
+  { image: "/activities/10.jpg", title: "Activity 10", desc: "Description here." },
+];
 
 // ============================================================
 // 🔶 EDITABLE COPY / 可修改文案区域 4：实验室成员
@@ -258,6 +270,7 @@ const members = [
 export default function YaoLabHomepage() {
   const [lang, setLang] = useState("en");
   const [selectedMember, setSelectedMember] = useState(null);
+  const [selectedActivity, setSelectedActivity] = useState(null);
   const t = content[lang];
   const isZh = lang === "zh";
 
@@ -430,6 +443,52 @@ export default function YaoLabHomepage() {
             </div>
           </div>
         </section>
+        <section id="activities" className="py-20">
+  <div className="mx-auto max-w-6xl px-6">
+    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">Activities</p>
+    <h2 className="mt-3 text-3xl font-bold tracking-tight md:text-4xl">Lab Activities</h2>
+    <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {activities.map((activity, i) => (
+        <button
+          key={i}
+          onClick={() => setSelectedActivity(activity)}
+          className="group relative overflow-hidden rounded-3xl aspect-square bg-slate-200"
+        >
+          <img
+            src={activity.image}
+            alt={activity.title}
+            className="h-full w-full object-cover transition group-hover:scale-105"
+          />
+        </button>
+      ))}
+    </div>
+  </div>
+
+  {selectedActivity && (
+    <div className="fixed inset-0 z-[100] flex items-center justify-center bg-slate-900/50 px-4 backdrop-blur-sm">
+      <motion.div
+        initial={{ opacity: 0, scale: 0.98 }}
+        animate={{ opacity: 1, scale: 1 }}
+        className="relative w-full max-w-lg rounded-[2rem] overflow-hidden shadow-2xl"
+      >
+        <div className="absolute inset-0">
+          <img src={selectedActivity.image} alt="" className="h-full w-full object-cover" />
+          <div className="absolute inset-0 bg-white/60 backdrop-blur-sm" />
+        </div>
+        <div className="relative p-8">
+          <button
+            onClick={() => setSelectedActivity(null)}
+            className="absolute right-5 top-5 rounded-full bg-white/80 p-2 text-slate-500 hover:bg-white"
+          >
+            <X className="h-5 w-5" />
+          </button>
+          <h3 className="text-2xl font-bold">{selectedActivity.title}</h3>
+          <p className="mt-4 leading-7 text-slate-700">{selectedActivity.desc}</p>
+        </div>
+      </motion.div>
+    </div>
+  )}
+</section>
 
         <section id="publications" className="bg-white py-20">
           <div className="mx-auto max-w-6xl px-6">

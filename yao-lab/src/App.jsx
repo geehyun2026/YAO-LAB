@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, MapPin, Microscope, Newspaper, GraduationCap, ArrowRight, X } from "lucide-react";
+import { Mail, MapPin, Microscope, Newspaper, GraduationCap, ArrowRight, X, Link2 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
@@ -554,6 +554,17 @@ export default function YaoLabHomepage() {
                   </div>
                 </CardContent>
               </Card>
+              <Card className="rounded-3xl shadow-sm">
+              <CardContent className="flex gap-4 p-6">
+                <Link2 className="h-6 w-6 text-slate-500" />
+                <div>
+                  <p className="font-semibold">LinkedIn</p>
+                  <a href="https://linkedin.com/in/xiang-yao-55a295289" target="_blank" className="mt-1 text-slate-600 hover:text-slate-900">
+                    linkedin.com/in/xiang-yao-55a295289
+                  </a>
+                </div>
+              </CardContent>
+            </Card>
               <Card className="rounded-3xl shadow-sm">
                 <CardContent className="flex gap-4 p-6">
                   <MapPin className="h-6 w-6 text-slate-500" />

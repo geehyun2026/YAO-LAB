@@ -39,8 +39,11 @@ const content = {
       intro:
         "The Yao Lab brings together researchers working on immune-metabolic adaptation, post-exam recovery dynamics, social burnout propagation, deadline-associated behavioral instability, and high-intensity academic survival strategies.",
       piRole: "Principal Investigator",
-      piBio:
-        "Reproductive biology · immune-metabolic adaptation · deadline-induced physiological instability"
+      piBio: [
+        "Reproductive biology",
+        "Immune-metabolic adaptation",
+        "Deadline-induced physiological instability"
+      ]
     },
     publications: {
       label: "Publications",
@@ -97,7 +100,11 @@ const content = {
       intro:
         "姚实验室汇聚了关注免疫代谢适应、考后恢复动力学、社交耗竭传播、截止日期行为失稳以及高强度学术生存策略的研究人员。",
       piRole: "课题组负责人",
-      piBio: "生殖生物学 · 免疫代谢适应 · 截止日期诱导的生理失稳"
+      piBio: [
+        "生殖生物学",
+        "免疫代谢适应",
+        "截止日期诱导的生理失稳"
+      ]
     },
     publications: {
       label: "论文",
@@ -222,7 +229,7 @@ const activities = [
 // ============================================================
 const members = [
   {
-    name: { en: "Sherry Xiong", zh: "熊师" },
+    name: { en: "Sherry", zh: "熊师" },
     role: { en: "Co-Principal Investigator", zh: "合作课题组负责人" },
     year: { en: "", zh: "" },
     image: "/xiong.jpg",
@@ -264,7 +271,7 @@ const members = [
     }
   },
   {
-    name: { en: "Freya Zheng", zh: "正西门" },
+    name: { en: "Freya", zh: "正西门" },
     role: { en: "Laboratory Administrator", zh: "实验室管理员" },
     year: { en: "", zh: "" },
     image: "/meng.jpg",

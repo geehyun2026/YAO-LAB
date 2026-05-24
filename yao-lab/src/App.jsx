@@ -58,9 +58,9 @@ const content = {
         "The Yao Lab is currently recruiting highly resilient master’s students, PhD students, postdoctoral fellows, research assistants, and emotionally stable collaborators. Prior experience in deadline survival, caffeine-dependent productivity, group-chat crisis management, or emergency slide production is strongly preferred."
     },
     contact: {
-      title: "in your dream",
-      email: "xiang@missyou.com",
-      address: "landexie",
+      title: "contact",
+      email: "email address",
+      address: "adddress",
       addressText: "Department of Xiang, Yao University, Xiang City, Republic of Yao"
     },
     footer: {
@@ -115,9 +115,9 @@ const content = {
         "姚实验室现招收高韧性硕士生、博士生、博士后、科研助理以及情绪稳定的合作研究人员。有截止日期生存经验、咖啡因依赖型生产力、群聊危机处理能力或紧急赶 PPT 能力者优先。"
     },
     contact: {
-      title: "梦里见",
-      email: "xiang@xiangni.com",
-      address: "中国姚大学，想学院宿舍楼",
+      title: "联系方式",
+      email: "邮箱",
+      address: "地址",
       addressText: "想学院，中国姚大学，想市，姚国"
     },
     footer: {
@@ -609,7 +609,7 @@ export default function YaoLabHomepage() {
                   <Mail className="h-6 w-6 text-slate-500" />
                   <div>
                     <p className="font-semibold">{t.contact.email}</p>
-                    <p className="mt-1 text-slate-600">yao@example.edu</p> {/* 🔶 EDITABLE COPY / 可修改邮箱 */}
+                    <p className="mt-1 text-slate-600">xiang@missyou.com</p> {/* 🔶 EDITABLE COPY / 可修改邮箱 */}
                   </div>
                 </CardContent>
               </Card>

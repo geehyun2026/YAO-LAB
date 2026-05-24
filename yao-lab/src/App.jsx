@@ -393,7 +393,7 @@ export default function YaoLabHomepage() {
           >
             <div className="aspect-[4/3] overflow-hidden rounded-[1.5rem] bg-slate-100">
               <img
-                src="/yao-lab-photo.png" // 🔶 EDITABLE IMAGE / 可替换图片：把 public 文件夹里的图片改名为 yao-lab-photo.png，或修改这里的文件名
+                src="/yaolab.png" // 🔶 EDITABLE IMAGE / 可替换图片：把 public 文件夹里的图片改名为 yao-lab-photo.png，或修改这里的文件名
                 alt="Dr. Xiang Yao in the Yao Lab"
                 className="h-full w-full object-cover"
               />

@@ -203,14 +203,14 @@ const publications = [
   }
 ];
 const activities = [
-  { image: "/activity1.jpg", title: "Susi Party", desc: "Description here." },
-  { image: "/activity2.jpg", title: "海外旅行", desc: "description" },
+  { image: "/activity1.jpg", title: "Sushi Party", desc:"" },
+  { image: "/activity2.jpg", title: "海外旅行", desc: "" },
   { image: "/activity3.jpg", title: "露营烧烤", desc: "可以吃到铱星食物“yy烤串”" },
   { image: "/activity4.jpg", title: "深夜饮酒活动", desc: "注意姚导不定期养鱼 和姚导喝酒要盯住酒杯" },
   { image: "/activity5.JPG", title: "实验室常驻活动：分手厨房", desc: "三星是我们的底线 全部四星是我们的追求 厨房高手快来加入YAO LAB" },
   { image: "/activity6.jpg", title: "实验室常驻活动2：🌟", desc: "全场消费meng买单 心动吗 快来加入YAO LAB（姚导因不会钓鱼遗憾失去买单资格）" },
   { image: "/activity7.jpg", title: "与姚导共舞活动", desc: "花舞节来和姚导一起跳舞吧～🎉🎉" },
-  { image: "/activity8.jpg", title: "海外旅行2", desc: "Description here." },
+  { image: "/activity8.jpg", title: "海外旅行2", desc: "" },
   { image: "/activity9.jpg", title: "和导师约会", desc: "我在东京很想姚老师" },
   { image: "/activity10.jpg", title: "和导师牵手", desc: "对的我就是在夹带私货" },
 ];

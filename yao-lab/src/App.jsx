@@ -349,7 +349,7 @@ export default function YaoLabHomepage() {
       </header>
 
       <main>
-        <section className="mx-auto grid max-w-6xl gap-10 px-6 pt-[28rem] pb-10 md:grid-cols-[1.1fr_0.9fr] md:items-center" style={{backgroundImage: "linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('/back1.jpg')", backgroundSize: "cover", backgroundPosition: "top"}}>
+        <section className="mx-auto grid max-w-6xl gap-10 px-6 pt-80 pb-10 md:grid-cols-[1.1fr_0.9fr] md:items-center" style={{backgroundImage: "linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('/back1.jpg')", backgroundSize: "cover", backgroundPosition: "top"}}>
           <motion.div
             key={lang}
             initial={{ opacity: 0, y: 18 }}
@@ -391,7 +391,7 @@ export default function YaoLabHomepage() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="rounded-[2rem] bg-white p-4 shadow-xl"
           >
-            <div className="aspect-[4/2] overflow-hidden rounded-[1.5rem] bg-slate-100">
+            <div className="aspect-[4/3] overflow-hidden rounded-[1.5rem] bg-slate-100">
               <img
                 src="/yao-lab-photo.png" // 🔶 EDITABLE IMAGE / 可替换图片：把 public 文件夹里的图片改名为 yao-lab-photo.png，或修改这里的文件名
                 alt="Dr. Xiang Yao in the Yao Lab"

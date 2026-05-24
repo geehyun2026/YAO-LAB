@@ -243,9 +243,6 @@ const members = [
     role: { en: "Distinguished Research Fellow", zh: "特聘研究员" },
     year: { en: "", zh: "" },
     image: "/maojian.jpg",
-    interests: {
-      zh: ["出门遛弯", "从萌嘴里抢西瓜吃"]
-    },
     bio: {
       en: ["Circadian nap optimization", "snack surveillance systems"],
       zh: ["昼夜节律睡眠优化", "零食监测系统"]
@@ -256,9 +253,6 @@ const members = [
     role: { en: "Distinguished Research Fellow", zh: "特聘研究员" },
     year: { en: "", zh: "" },
     image: "/gangdan.PNG",
-    interests: {
-      zh: ["可爱", "可爱", "可爱"]
-    },
     bio: {
       en: ["Cat-assisted emotional regulation", "translational meow biology"],
       zh: ["猫源性情绪调控", "喵学转化研究"]

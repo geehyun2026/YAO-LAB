@@ -456,9 +456,14 @@ export default function YaoLabHomepage() {
                   </div>
                   <h3 className="text-xl font-semibold">{isZh ? "姚想 博士" : "Dr. Xiang Yao"}</h3>
                   <p className="mt-1 text-sm text-slate-500">{t.people.piRole}</p>
-                  <p className="mt-4 leading-7 text-slate-600">
-                    {t.people.piBio}
-                  </p>
+                  <div className="mt-4 space-y-2 text-sm leading-6 text-slate-600">
+                    {t.people.piBio.map((item, idx) => (
+                      <div key={idx} className="flex items-start gap-2">
+                        <span className="mt-0.5 shrink-0 text-slate-400">•</span>
+                        <span>{item}</span>
+                      </div>
+                    ))}
+                  </div>
                 </CardContent>
               </Card>
             </div>

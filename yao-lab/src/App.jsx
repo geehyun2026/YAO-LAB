@@ -498,8 +498,8 @@ export default function YaoLabHomepage() {
         </section>
         <section id="activities" className="py-20">
   <div className="mx-auto max-w-6xl px-6">
-    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">Activities</p>
-    <h2 className="mt-3 text-3xl font-bold tracking-tight md:text-4xl">Lab Activities</h2>
+    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">{isZh ? "活动" : "Activities"}</p>
+    <h2 className="mt-3 text-3xl font-bold tracking-tight md:text-4xl">{isZh ? "实验室活动" : "Lab Activities"}</h2>
     <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {activities.map((activity, i) => (
         <button

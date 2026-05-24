@@ -429,7 +429,7 @@ export default function YaoLabHomepage() {
 
         <section id="people" className="py-20">
           <div className="mx-auto max-w-6xl px-6">
-            <div className="grid gap-8 md:grid-cols-[0.8fr_1.2fr] md:items-start">
+            <div className="grid gap-8 md:grid-cols-[1.1fr_0.9fr] md:items-start">
               <div>
                 <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">{t.people.label}</p>
                 <h2 className="mt-3 text-3xl font-bold tracking-tight md:text-4xl">{t.people.title}</h2>
@@ -437,60 +437,62 @@ export default function YaoLabHomepage() {
                   {t.people.intro}
                 </p>
               </div>
-              <div className="grid gap-4 sm:grid-cols-2">
-                <Card className="rounded-3xl bg-white shadow-sm">
-                  <CardContent className="p-6">
-                    <div className="mb-4 h-24 w-24 overflow-hidden rounded-3xl bg-slate-200">
-                      <img
-                        src="/yao-lab-photo.png"
-                        alt="Dr. Xiang Yao"
-                        className="h-full w-full object-cover"
-                      />
-                    </div>
-                    <h3 className="text-xl font-semibold">{isZh ? "姚想 博士" : "Dr. Xiang Yao"}</h3>
-                    <p className="mt-1 text-sm text-slate-500">{t.people.piRole}</p>
-                    <p className="mt-4 leading-7 text-slate-600">
-                      {t.people.piBio}
-                    </p>
-                  </CardContent>
-                </Card>
-                <div className="grid gap-4">
-                  {members.map((member) => (
-                    <button
-                      key={member.name.en}
-                      onClick={() => setSelectedMember(member)}
-                      className="group text-left"
-                    >
-                      <Card className="rounded-3xl bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-md">
-                        <CardContent className="flex items-center gap-4 p-5">
-                          <div className="h-16 w-16 shrink-0 overflow-hidden rounded-2xl bg-slate-200 ring-2 ring-transparent transition group-hover:ring-slate-300">
-                            <img
-                              src={member.image}
-                              alt={member.name[lang]}
-                              className="h-full w-full object-cover"
-                              onError={(e) => {
-                                e.currentTarget.style.display = "none";
-                              }}
-                            />
+
+              <Card className="rounded-3xl bg-white shadow-sm">
+                <CardContent className="p-6">
+                  <div className="mb-4 h-24 w-24 overflow-hidden rounded-3xl bg-slate-200">
+                    <img
+                      src="/yao-lab-photo.png"
+                      alt="Dr. Xiang Yao"
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                  <h3 className="text-xl font-semibold">{isZh ? "姚想 博士" : "Dr. Xiang Yao"}</h3>
+                  <p className="mt-1 text-sm text-slate-500">{t.people.piRole}</p>
+                  <p className="mt-4 leading-7 text-slate-600">
+                    {t.people.piBio}
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+
+            <div className="mt-10 grid gap-5 md:grid-cols-3">
+              {members.map((member) => (
+                <button
+                  key={member.name.en}
+                  onClick={() => setSelectedMember(member)}
+                  className="group text-left"
+                >
+                  <Card className="h-full rounded-3xl bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+                    <CardContent className="p-6">
+                      <div className="mb-5 h-20 w-20 overflow-hidden rounded-3xl bg-slate-200 ring-2 ring-transparent transition group-hover:ring-slate-300">
+                        <img
+                          src={member.image}
+                          alt={member.name[lang]}
+                          className="h-full w-full object-cover"
+                          onError={(e) => {
+                            e.currentTarget.style.display = "none";
+                          }}
+                        />
+                      </div>
+
+                      <h3 className="text-xl font-semibold text-slate-900">{member.name[lang]}</h3>
+                      <p className="mt-1 text-sm text-slate-500">
+                        {member.role[lang]}
+                      </p>
+
+                      <div className="mt-4 space-y-2 text-sm leading-6 text-slate-600">
+                        {member.interests[lang].map((interest, idx) => (
+                          <div key={idx} className="flex items-start gap-2">
+                            <span className="mt-0.5 shrink-0 text-slate-400">•</span>
+                            <span>{interest}</span>
                           </div>
-                          <div className="flex-1">
-                            <p className="font-semibold text-slate-900">{member.name[lang]}</p>
-                            <p className="mt-1 text-sm text-slate-500">{member.role[lang]} · {member.year[lang]}</p>
-                            <div className="mt-2 space-y-1 text-sm leading-5 text-slate-600">
-                              {member.interests[lang].slice(0, 2).map((interest, idx) => (
-                                <div key={idx} className="flex items-start gap-2">
-                                  <span className="text-slate-400 flex-shrink-0">•</span>
-                                  <span>{interest}</span>
-                                </div>
-                              ))}
-                            </div>
-                          </div>
-                        </CardContent>
-                      </Card>
-                    </button>
-                  ))}
-                </div>
-              </div>
+                        ))}
+                      </div>
+                    </CardContent>
+                  </Card>
+                </button>
+              ))}
             </div>
           </div>
         </section>
